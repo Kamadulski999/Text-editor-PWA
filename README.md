@@ -31,3 +31,8 @@
 - THEN I should have my static assets precached upon loading along with subsequent pages and static assets
 - WHEN I deploy to Heroku
 - THEN I should have proper build scripts for a webpack application
+
+
+# Deployed Application
+[![image](/client/src/images/Screenshot.png)](https://gentle-river-68118.herokuapp.com/)
+
