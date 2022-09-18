@@ -25,7 +25,7 @@ if (typeof editor === 'undefined') {
 
 // Check if service workers are supported
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('src-sw.js').then(function(reg) {
+  navigator.serviceWorker.register('service-worker.js').then(function(reg) {
       console.log('Successfully registered service worker', reg);
   }).catch(function(err) {
       console.warn('Error whilst registering service worker', err);
