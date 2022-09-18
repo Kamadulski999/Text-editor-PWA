@@ -26,3 +26,8 @@
 - WHEN I click on the Install button
 - THEN I download my web application as an icon on my desktop
 - WHEN I load my web application
+- THEN I should have a registered service worker using Workbox
+- WHEN I register a service worker
+- THEN I should have my static assets precached upon loading along with subsequent pages and static assets
+- WHEN I deploy to Heroku
+- THEN I should have proper build scripts for a webpack application
